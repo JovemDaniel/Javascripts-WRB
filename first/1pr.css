@@ -1,0 +1,72 @@
+body {
+  background: black;
+  margin: 0;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#button {
+  margin-left: 15px;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input {
+  margin-top: 10px;
+  width: 20%;
+  height: 1.5rem;
+  background-color: azure;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(132, 53, 222, 1) 0%,
+    rgba(184, 84, 232, 1) 100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(184, 84, 232, 1) 0%,
+    rgba(132, 53, 222, 1) 100%
+  );
+}
+
+.getId {
+    margin-top: 50px;
+}
+
+#getId {
+    margin-top: 10px;
+}
+
+.deleteId {
+    margin-top: 50px;
+}
+
+#deleteId {
+    margin-top: 10px;
+}
+
